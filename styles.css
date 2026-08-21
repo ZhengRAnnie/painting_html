@@ -1,0 +1,61 @@
+.search-bar {
+    width: 350px;
+    height: 20px;
+    margin: 15px;
+}
+.search-button {
+    color: white;
+    background-color: rgb(172, 197, 244);
+    border-color: rgb(124, 124, 254);
+}
+.Starry_Night,
+.School_Of_Athens,
+.Sunrise,
+.Sunday_Afternoon,
+.Sistine_Chapel,
+.Swing {
+    display: inline-block;
+    background: rgb(232, 231, 231);
+    transition: opacity 0.65s;
+    margin: 15px;
+}
+.Starry_Night:hover,
+.School_Of_Athens:hover,
+.Sunrise:hover,
+.Sunday_Afternoon:hover,
+.Sistine_Chapel:hover,
+.Swing:hover {
+    opacity: 0.8;
+}
+.artpiece {
+    width: 420px;
+    height: 300px;
+    margin: 10px;
+}
+.art-title,
+.year {
+    display: inline-block;
+    margin: 0px;
+}
+.artist {
+    width: 300px;
+    display: inline-block;
+}
+.art-title,
+.year,
+.artist {
+    margin-left: 10px;
+}
+.notice {
+    display: inline-block;
+    margin: 10px;
+}
+.vertical-nav {
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(172, 197, 244);
+    border-color: rgb(124, 124, 254);
+    margin-left: 580px;
+}
